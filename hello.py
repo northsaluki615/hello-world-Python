@@ -3,6 +3,12 @@ print('Hello World!')
 print('What is your name?') #ask for user's name
 myName = input()
 print('It is good to meet you, ' + myName)
+  print('Please confirm your name?') #confirm user's name
+  cName = input() 
+  if cName != myName
+    print ('Please try again')
+  elif cName == myName
+    print ('It is good to meet you, ' + myName)
 print('The length of your name is:')
 print(len(myName))
 print('What is your age') #ask for user's age
